@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {NextUIProvider} from "@nextui-org/react";
@@ -14,8 +15,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <NextUIProvider>
-{children}
-</NextUIProvider>
+       {children}
+      </NextUIProvider>
 </body>
     </html>
   );
