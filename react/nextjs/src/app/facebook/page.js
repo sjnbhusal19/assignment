@@ -10,7 +10,8 @@ const page = () => {
   return (
     <div>
         Like<br/>
-       <button className='bg-gray-200 p-2 border border-black'> <GrLike color={color}/></button>
+       <button onClick ={() => handleColorChange()}className='bg-gray-200 p-2 border border-black'> <GrLike color={color}/>
+       </button>
 
         </div>
   )
